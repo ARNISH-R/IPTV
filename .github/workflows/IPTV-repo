@@ -1,0 +1,21 @@
+my-iptv-repo/
+│
+├── README.md               # Project overview and usage instructions
+├── LICENSE                 # Your chosen license (MIT recommended)
+│
+├── playlists/              # .m3u playlists organized by country or category
+│   ├── global.m3u
+│   ├── india.m3u
+│   └── sports.m3u
+│
+├── epg/                    # EPG XML files (optional, for program guides)
+│   ├── guide.xml
+│   └── readme.md           # Instructions to use or generate EPG
+│
+├── logos/                  # Channel logos (organized by size or category)
+│   └── india/
+│       ├── sony-sports.png
+│       └── star-plus.png
+│
+└── tools/                  # Optional: scripts/tools to generate/validate playlists
+    └── validate.py
